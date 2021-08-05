@@ -1,0 +1,48 @@
+.circles {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 100px;
+}
+
+.circle {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.circle:first-child {
+	border: 8px solid blue;
+}
+
+.circle:nth-child(2) {
+	transform: translateX(20px);
+	z-index: 2;
+	border: 8px solid black;
+}
+
+.circle:nth-child(3) {
+	transform: translateX(40px);
+	border: 8px solid red;
+}
+
+.circle2 {
+	position: absolute;
+	display: flex;
+}
+
+.yellowcircle {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 8px solid yellow;
+	transform: translateY(80px);
+	margin-left: 20px;
+}
+.greencircle {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 8px solid green;
+	transform: translateY(80px);
+}
